@@ -1,9 +1,8 @@
-# Welcome to Techathon 2024: [TeamName]
+# Welcome to Techathon 2024: PredictivePros
 
 ---
 
 ## 🌟 What is Techathon?
-
 
 It's not just for coders – students from all disciplines can participate to brainstorm ideas, craft unique solutions, and showcase their projects to an esteemed panel of judges.
 
@@ -27,31 +26,24 @@ bash
 git clone https://github.com/[owner]/[repo].git
 cd [repo]
 
-
 ### 2. Adding and Committing Your Changes
 
 After making changes to your files, follow these steps:
 
 1. Stage your changes:
 
-   
 bash
-   git add .
-
+git add .
 
 2. Commit your changes with a meaningful message:
 
-   
 bash
-   git commit -m "Your commit message"
-
+git commit -m "Your commit message"
 
 3. Push your changes to GitHub:
 
-   
 bash
-   git push origin main
-
+git push origin main
 
 ### 3. Pulling Updates
 
@@ -60,7 +52,6 @@ Ensure your local repository is up-to-date with the remote repository:
 bash
 git pull origin main
 
-
 ### 4. Resolving Merge Conflicts
 
 Merge conflicts can occur when multiple team members make changes to the same files. Resolve conflicts by:
@@ -68,20 +59,19 @@ Merge conflicts can occur when multiple team members make changes to the same fi
 1. Reviewing the conflicted files.
 2. Manually editing to resolve the conflicts.
 3. Staging the resolved files:
-   
+
 bash
-   git add [filename]
+git add [filename]
 
 4. Committing the resolution:
-   
+
 bash
-   git commit -m "Resolve merge conflict"
+git commit -m "Resolve merge conflict"
 
 5. Pushing the resolved changes:
-   
-bash
-   git push origin main
 
+bash
+git push origin main
 
 ---
 
@@ -99,14 +89,14 @@ To add your teammates as collaborators to this repository:
 
 Here are some common Git commands for quick reference:
 
-| Command | Description |
-|---------|-------------|
-| git clone <url> | Clone a remote repository. |
-| git status | Check the status of your local repository. |
-| git add <file> | Stage specific files for commit. |
-| git commit -m "message" | Commit staged changes with a message. |
-| git push origin main | Push committed changes to the main branch. |
-| git pull origin main | Pull the latest changes from the main branch. |
+| Command                 | Description                                   |
+| ----------------------- | --------------------------------------------- |
+| git clone <url>         | Clone a remote repository.                    |
+| git status              | Check the status of your local repository.    |
+| git add <file>          | Stage specific files for commit.              |
+| git commit -m "message" | Commit staged changes with a message.         |
+| git push origin main    | Push committed changes to the main branch.    |
+| git pull origin main    | Pull the latest changes from the main branch. |
 
 ---
 
