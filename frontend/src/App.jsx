@@ -50,7 +50,7 @@ function App() {
         <h1 className="font-bold text-3xl">Extractify</h1>
         <p className="italic">Invoice data extractor</p>
       </div>
-      <div className="bg-brand-primary">
+      <div className="bg-brand-primary py-2 px-1">
         <p className="font-bold text-lg">Upload your invoice picture here!</p>
         <form className="flex justify-center items-center gap-4">
           <input
@@ -79,11 +79,14 @@ function App() {
 
       <div className="bg-blue-300 flex items-center justify-center">
         {invoiceImage && (
-          <img
-            className="w-96"
-            src={URL.createObjectURL(invoiceImage)}
-            alt="Preview"
-          />
+          <div className="flex flex-col py-4">
+            <p className="text-lg mb-1">Your uploaded image:</p>
+            <img
+              className="w-96"
+              src={URL.createObjectURL(invoiceImage)}
+              alt="Preview"
+            />
+          </div>
         )}
       </div>
     </div>
